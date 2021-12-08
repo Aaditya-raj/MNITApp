@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/nav_slideshow">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.mnit_app.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_academics"
+        android:name="com.example.mnit_app.ui.gallery.GalleryFragment"
+        android:label="Academics"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_admission"
+        android:name="com.example.mnit_app.ui.slideshow.SlideshowFragment"
+        android:label="Admission"
+        tools:layout="@layout/fragment_slideshow" />
+
+    <fragment
+        android:id="@+id/nav_department"
+        android:name="com.example.mnit_app.ui.home.HomeFragment"
+        android:label="Departments"
+        tools:layout="@layout/fragment_department" />
+
+    <fragment
+        android:id="@+id/nav_student"
+        android:name="com.example.mnit_app.ui.gallery.GalleryFragment"
+        android:label="Student Facilities"
+        tools:layout="@layout/fragment_student" />
+
+    <fragment
+        android:id="@+id/nav_placement"
+        android:name="com.example.mnit_app.ui.slideshow.SlideshowFragment"
+        android:label="Placements"
+        tools:layout="@layout/fragment_placement" />
+
+</navigation>
